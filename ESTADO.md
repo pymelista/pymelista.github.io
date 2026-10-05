@@ -19,7 +19,7 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
 | Análisis de nicho y plan de 30 títulos | Hecho: `NICHO.md`, `PLAN.md` |
 | Artículos | **8 publicados** (2 por categoría) |
 | Páginas | Sobre, Contacto, Privacidad, Aviso legal y Cookies, **con datos del titular sin rellenar** |
-| Publicación | Ver apartado «Publicación» |
+| Publicación | Push hecho a `pymelista/pymelista.github.io`; **falta activar Pages en `main` → `/docs`** (pasos más abajo) |
 | AdSense / Search Console | Sin configurar (`adsenseId` y `searchConsoleTag` vacíos) |
 
 ## Hecho en la Parte 1 (resumen)
@@ -85,8 +85,10 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
 ## Publicación
 
 - **Cuenta:** `pymelista` (indicada por el usuario). **Repositorio:** `pymelista.github.io` (público, creado por el usuario, vacío).
-- **URL del sitio:** https://pymelista.github.io (ya puesta en `config.json`).
-- Resultado del `git push` y activación de Pages: ver abajo, se actualiza tras el push.
+- **URL del sitio:** https://pymelista.github.io (ya puesta en `config.json`; el build se ejecutó con ella).
+- **Git:** repositorio local creado (rama `main`, `.gitignore`, primer commit `57c13c8`) y **push hecho el 2026-10-05**. Se comprobó por la API pública de GitHub que el remoto contiene los 87 archivos, incluida `docs/`.
+- **GitHub Pages: pendiente de activar.** `gh` no está instalado ni autenticado y el navegador integrado no tiene sesión de GitHub, así que no se pueden ver ni cambiar los ajustes del repositorio desde aquí. Tras el push, la API marca `has_pages: true` pero `https://pymelista.github.io/` responde 404: lo esperable si Pages apunta a la raíz del repositorio y no a `/docs`. Hay que fijar el origen en **main → /docs** con los pasos de abajo.
+- Autoría de los commits: `PymeLista <pymelista@users.noreply.github.com>` (configuración local del repositorio, no global).
 
 ## Pasos para activar GitHub Pages (clic a clic)
 

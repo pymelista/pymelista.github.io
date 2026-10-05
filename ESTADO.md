@@ -19,7 +19,7 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
 | Análisis de nicho y plan de 30 títulos | Hecho: `NICHO.md`, `PLAN.md` |
 | Artículos | **8 publicados** (2 por categoría) |
 | Páginas | Sobre, Contacto, Privacidad, Aviso legal y Cookies, **con datos del titular sin rellenar** |
-| Publicación | Push hecho a `pymelista/pymelista.github.io`; **falta activar Pages en `main` → `/docs`** (pasos más abajo) |
+| Publicación | Push hecho; Pages configurado en `main` → `/docs`; **despliegue pendiente por una incidencia de GitHub Actions del 2026-10-05** (ver «Publicación») |
 | AdSense / Search Console | Sin configurar (`adsenseId` y `searchConsoleTag` vacíos) |
 
 ## Hecho en la Parte 1 (resumen)
@@ -87,12 +87,18 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
 - **Cuenta:** `pymelista` (indicada por el usuario). **Repositorio:** `pymelista.github.io` (público, creado por el usuario, vacío).
 - **URL del sitio:** https://pymelista.github.io (ya puesta en `config.json`; el build se ejecutó con ella).
 - **Git:** repositorio local creado (rama `main`, `.gitignore`, primer commit `57c13c8`) y **push hecho el 2026-10-05**. Se comprobó por la API pública de GitHub que el remoto contiene los 87 archivos, incluida `docs/`.
-- **GitHub Pages: pendiente de activar.** `gh` no está instalado ni autenticado y el navegador integrado no tiene sesión de GitHub, así que no se pueden ver ni cambiar los ajustes del repositorio desde aquí. Tras el push, la API marca `has_pages: true` pero `https://pymelista.github.io/` responde 404: lo esperable si Pages apunta a la raíz del repositorio y no a `/docs`. Hay que fijar el origen en **main → /docs** con los pasos de abajo.
+- **GitHub Pages:** el propietario lo configuró en **main → /docs** (no se puede ver ni cambiar desde aquí: `gh` no está instalado y el navegador integrado no tiene sesión de GitHub).
+- **Incidencia del 2026-10-05 (la web mostraba el README):**
+  - Los dos primeros despliegues (18:51 y 18:52 UTC) se hicieron desde la raíz del repositorio con Jekyll, antes de cambiar el origen a `/docs`, y por eso la web mostró el README.
+  - Se comprobó que `docs/index.html` y `docs/.nojekyll` están en el remoto, que `.gitignore` no excluye nada de `docs/` y que `node build.js` regenera `docs/` sin cambios.
+  - Los despliegues posteriores (el lanzado al cambiar el ajuste y el del commit vacío `f48ae31`) **no llegaron a ejecutarse**: el trabajo `build` esperó 15 minutos sin ejecutor y se canceló, y lo mismo el siguiente. Coincide con una incidencia de GitHub Actions («delays when assigning GitHub-hosted runners», abierta desde las 19:11 UTC y aún sin resolver a las 19:50). No es un fallo del repositorio.
+  - Cada push cancela el despliegue en cola, así que no conviene empujar varias veces seguidas mientras dure la incidencia.
+  - Estado del sitio: pendiente de un despliegue correcto. Para reintentar sin crear commits: en https://github.com/pymelista/pymelista.github.io/actions abre el último «pages build and deployment» y pulsa **Re-run all jobs**.
 - Autoría de los commits: `PymeLista <pymelista@users.noreply.github.com>` (configuración local del repositorio, no global).
 
-## Pasos para activar GitHub Pages (clic a clic)
+## Pasos para configurar GitHub Pages (clic a clic)
 
-`gh` (GitHub CLI) no está instalado en este equipo, por eso la activación es manual:
+Ya están hechos por el propietario; se dejan por si hay que repetirlos. `gh` (GitHub CLI) no está instalado en este equipo, por eso es manual:
 
 1. Entra en https://github.com/pymelista/pymelista.github.io con tu sesión.
 2. Pulsa **Settings** (pestaña de la derecha, arriba).

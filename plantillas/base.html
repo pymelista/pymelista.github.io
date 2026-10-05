@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{titulo}}</title>
+<meta name="description" content="{{descripcion}}">
+{{{canonical}}}
+<meta name="robots" content="{{robots}}">
+<meta name="theme-color" content="#fbfbf9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1116" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="{{icono}}" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="{{nombre}}" href="{{feed}}">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="{{nombre}}">
+<meta property="og:type" content="{{ogTipo}}">
+<meta property="og:title" content="{{ogTitulo}}">
+<meta property="og:description" content="{{descripcion}}">
+<meta property="og:url" content="{{urlAbsoluta}}">
+<meta property="og:image" content="{{ogImagen}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="{{fuente}}" as="font" type="font/woff2" crossorigin>
+<style>{{{css}}}</style>
+<script>try{var t=localStorage.getItem("pymelista-tema");if(t==="claro"||t==="oscuro")document.documentElement.dataset.tema=t}catch(e){}</script>
+{{{cabeceraExtra}}}
+<script type="application/ld+json">{{{jsonld}}}</script>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a class="logo" href="{{inicio}}" aria-label="{{nombre}}, ir al inicio">Pyme<span>Lista</span></a>
+    <nav class="nav" aria-label="Categorías">
+      <ul>
+{{{navegacion}}}
+      </ul>
+    </nav>
+    <button class="tema" type="button" data-tema-toggle hidden aria-label="Modo oscuro" aria-pressed="false">
+      <svg class="luna" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="sol" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </div>
+</header>
+<main id="contenido">
+{{{contenido}}}
+</main>
+<footer class="pie">
+  <div class="contenedor pie__fila">
+    <div class="pie__marca">
+      <p class="pie__logo">Pyme<span>Lista</span></p>
+      <p class="pie__lema">{{lema}}</p>
+    </div>
+{{{pie}}}
+    <p class="pie__copy">&copy; {{anio}} {{nombre}}</p>
+  </div>
+</footer>
+<script src="{{js}}" defer></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".16"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f3a99"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="110" cy="70" r="250" fill="#1a56db" opacity=".55"/>
+  <circle cx="1100" cy="590" r="210" fill="#0a2c78"/>
+  <!-- sobre trasero izquierdo -->
+  <g transform="translate(110 250) rotate(-10 130 90)">
+    <rect x="10" y="12" width="260" height="170" rx="18" fill="#071f57" opacity=".35"/>
+    <rect width="260" height="170" rx="18" fill="#9db9ff"/>
+    <path d="M10 24L130 106 250 24" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- sobre trasero derecho -->
+  <g transform="translate(790 250) rotate(9 130 90)">
+    <rect x="10" y="12" width="260" height="170" rx="18" fill="#071f57" opacity=".35"/>
+    <rect width="260" height="170" rx="18" fill="#6f9bff"/>
+    <path d="M10 24L130 106 250 24" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- sobre central -->
+  <g transform="translate(350 200)">
+    <rect x="14" y="16" width="500" height="320" rx="28" fill="#071f57" opacity=".4"/>
+    <rect width="500" height="320" rx="28" fill="#fff"/>
+    <path d="M22 290L190 142M478 290L310 142" fill="none" stroke="#cfe0ff" stroke-width="14" stroke-linecap="round"/>
+    <path d="M22 34L250 214 478 34" fill="none" stroke="#1a56db" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- avión de papel (enviar) -->
+  <g transform="translate(870 130)">
+    <path d="M0 40L170 -30 110 120 78 62z" fill="#fff"/>
+    <path d="M78 62L170 -30" stroke="#9db9ff" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M78 62L88 100 108 74" fill="#cfe0ff"/>
+  </g>
+  <path d="M740 170C790 120 800 110 840 130" fill="none" stroke="#fff" stroke-width="6" stroke-dasharray="3 14" stroke-linecap="round"/>
+</svg>

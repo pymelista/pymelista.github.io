@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".16"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f3a99"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="1060" cy="110" r="300" fill="#1a56db" opacity=".55"/>
+  <circle cx="90" cy="620" r="220" fill="#0a2c78"/>
+  <g transform="translate(90 84) scale(.3125)">
+    <rect width="512" height="512" rx="112" fill="#fff"/>
+    <g fill="none" stroke="#1a56db" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M110 148l24 24 44-52"/><path d="M110 262l24 24 44-52"/><path d="M110 376l24 24 44-52"/>
+    </g>
+    <g fill="#1a56db">
+      <rect x="228" y="140" width="176" height="32" rx="16"/>
+      <rect x="228" y="254" width="136" height="32" rx="16" opacity=".85"/>
+      <rect x="228" y="368" width="156" height="32" rx="16" opacity=".7"/>
+    </g>
+  </g>
+  <text x="90" y="400" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="156" font-weight="700" fill="#fff" letter-spacing="-3">Pyme<tspan fill="#9db9ff">Lista</tspan></text>
+  <text x="94" y="488" font-family="system-ui, 'Segoe UI', Arial, sans-serif" font-size="42" fill="#e5edff">Herramientas online para tu negocio,</text>
+  <text x="94" y="542" font-family="system-ui, 'Segoe UI', Arial, sans-serif" font-size="42" fill="#e5edff">explicadas claro</text>
+</svg>

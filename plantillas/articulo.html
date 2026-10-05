@@ -1,0 +1,19 @@
+<div class="contenedor seccion">
+  <article class="articulo">
+    <div class="columna">
+{{{migas}}}
+      <header class="articulo__cab">
+        <p class="etiqueta"><a href="{{categoriaUrl}}">{{categoria}}</a></p>
+        <h1>{{titulo}}</h1>
+        <p class="articulo__intro">{{descripcion}}</p>
+        <p class="articulo__meta">Por {{{autor}}} · Actualizado el <time datetime="{{actualizadoISO}}">{{actualizado}}</time> · {{lectura}} min de lectura</p>
+      </header>
+      <img class="articulo__portada" src="{{portada}}" alt="" width="{{ancho}}" height="{{alto}}" fetchpriority="high">
+{{{toc}}}
+      <div class="prose">
+{{{cuerpo}}}
+      </div>
+    </div>
+  </article>
+{{{relacionados}}}
+</div>

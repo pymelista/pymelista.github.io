@@ -1,0 +1,31 @@
+{
+  "nombre": "PymeLista",
+  "lema": "Herramientas online para tu negocio, explicadas claro",
+  "descripcion": "Guías claras y sin jerga sobre software y herramientas online para autónomos y pequeños negocios en España: web, tienda online, marketing y gestión.",
+  "url": "https://pymelista.github.io",
+  "autor": "PymeLista",
+  "categorias": [
+    {
+      "slug": "crear-tu-web",
+      "nombre": "Crear tu web",
+      "descripcion": "Cómo tener la web de tu negocio en marcha: dominio, plataforma, textos y lo básico para que funcione desde el primer día."
+    },
+    {
+      "slug": "tienda-online",
+      "nombre": "Tienda online",
+      "descripcion": "Vender por internet sin complicarte: elegir plataforma, cobrar, gestionar pedidos y envíos."
+    },
+    {
+      "slug": "marketing-y-email",
+      "nombre": "Marketing y email",
+      "descripcion": "Dar a conocer tu negocio y mantener el contacto con tus clientes: email, redes y herramientas para hacerlo con poco tiempo."
+    },
+    {
+      "slug": "gestion-del-negocio",
+      "nombre": "Gestión del negocio",
+      "descripcion": "Facturas, agenda, clientes y tareas: herramientas para llevar el día a día del negocio con orden."
+    }
+  ],
+  "adsenseId": "",
+  "searchConsoleTag": ""
+}

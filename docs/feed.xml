@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PymeLista</title>
+    <link>https://pymelista.github.io/</link>
+    <description>Herramientas online para tu negocio, explicadas claro</description>
+    <language>es-es</language>
+    <lastBuildDate>Sun, 04 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://pymelista.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Buffer o Metricool: cuál elegir para tus redes</title>
+      <link>https://pymelista.github.io/marketing-y-email/buffer-o-metricool-cual-elegir-para-tus-redes/</link>
+      <guid isPermaLink="true">https://pymelista.github.io/marketing-y-email/buffer-o-metricool-cual-elegir-para-tus-redes/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Marketing y email</category>
+      <description>Planes gratuitos y precios de Buffer y Metricool según sus webs oficiales, con un ejemplo de coste para un negocio con tres redes sociales.</description>
+    </item>
+    <item>
+      <title>Calendly, Cal.com o Fresha: reservas online para tu negocio</title>
+      <link>https://pymelista.github.io/gestion-del-negocio/calendly-cal-com-o-fresha-reservas-online/</link>
+      <guid isPermaLink="true">https://pymelista.github.io/gestion-del-negocio/calendly-cal-com-o-fresha-reservas-online/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Gestión del negocio</category>
+      <description>Planes gratuitos, precios y cobros de Calendly, Cal.com y Fresha según sus webs oficiales, para elegir cómo reservan cita tus clientes.</description>
+    </item>
+    <item>
+      <title>Mailchimp, Brevo o MailerLite: cuál te conviene</title>
+      <link>https://pymelista.github.io/marketing-y-email/mailchimp-brevo-o-mailerlite-cual-te-conviene/</link>
+      <guid isPermaLink="true">https://pymelista.github.io/marketing-y-email/mailchimp-brevo-o-mailerlite-cual-te-conviene/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Marketing y email</category>
+      <description>Planes gratuitos, precios y límites de Mailchimp, Brevo y MailerLite según sus webs oficiales, para elegir con qué enviar los correos de tu negocio.</description>
+    </item>
+    <item>
+      <title>Shopify, WooCommerce o PrestaShop: cuál elegir</title>
+      <link>https://pymelista.github.io/tienda-online/shopify-woocommerce-o-prestashop-cual-elegir/</link>
+      <guid isPermaLink="true">https://pymelista.github.io/tienda-online/shopify-woocommerce-o-prestashop-cual-elegir/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Tienda online</category>
+      <description>Costes, comisiones y diferencias de Shopify, WooCommerce y PrestaShop según sus webs oficiales, para decidir con qué abrir tu tienda online.</description>
+    </item>
+    <item>
+      <title>Stripe o PayPal: comisiones para cobrar en tu tienda</title>
+      <link>https://pymelista.github.io/tienda-online/stripe-o-paypal-comisiones-para-cobrar-en-tu-tienda/</link>
+      <guid isPermaLink="true">https://pymelista.github.io/tienda-online/stripe-o-paypal-comisiones-para-cobrar-en-tu-tienda/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Tienda online</category>
+      <description>Comisiones de Stripe y PayPal para vender en España según sus tarifas oficiales, con ejemplos de ventas de 10, 50 y 200 euros.</description>
+    </item>
+    <item>
+      <title>Trello, Asana o Notion: cuál usar en tu negocio</title>
+      <link>https://pymelista.github.io/gestion-del-negocio/trello-asana-o-notion-cual-usar-en-tu-negocio/</link>
+      <guid isPermaLink="true">https://pymelista.github.io/gestion-del-negocio/trello-asana-o-notion-cual-usar-en-tu-negocio/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Gestión del negocio</category>
+      <description>Planes gratuitos, precios y límites de Trello, Asana y Notion según sus webs oficiales, con el coste de un equipo de cinco personas.</description>
+    </item>
+    <item>
+      <title>Wix, Squarespace o WordPress.com: cuál elegir</title>
+      <link>https://pymelista.github.io/crear-tu-web/wix-squarespace-o-wordpress-com-cual-elegir/</link>
+      <guid isPermaLink="true">https://pymelista.github.io/crear-tu-web/wix-squarespace-o-wordpress-com-cual-elegir/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Crear tu web</category>
+      <description>Precios, plan gratuito y límites de Wix, Squarespace y WordPress.com según sus webs oficiales, para elegir el creador de webs de tu negocio.</description>
+    </item>
+    <item>
+      <title>WordPress.com o WordPress.org: cuál te conviene</title>
+      <link>https://pymelista.github.io/crear-tu-web/wordpress-com-o-wordpress-org-cual-te-conviene/</link>
+      <guid isPermaLink="true">https://pymelista.github.io/crear-tu-web/wordpress-com-o-wordpress-org-cual-te-conviene/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Crear tu web</category>
+      <description>WordPress.com incluye el alojamiento; WordPress.org es el software gratuito que instalas en el tuyo. Diferencias, costes y cuál encaja con tu negocio.</description>
+    </item>
+  </channel>
+</rss>

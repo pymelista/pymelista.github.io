@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".16"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f3a99"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="1070" cy="80" r="260" fill="#1a56db" opacity=".55"/>
+  <circle cx="100" cy="600" r="220" fill="#0a2c78"/>
+  <!-- tarjeta de pago inclinada -->
+  <g transform="translate(260 120) rotate(-8 240 150)">
+    <rect x="16" y="22" width="480" height="300" rx="30" fill="#071f57" opacity=".4"/>
+    <rect width="480" height="300" rx="30" fill="#fff"/>
+    <rect y="58" width="480" height="48" fill="#1a56db"/>
+    <rect x="40" y="132" width="76" height="58" rx="12" fill="#cfe0ff"/>
+    <path d="M40 161h76M78 132v58" stroke="#9db9ff" stroke-width="4"/>
+    <g fill="#9db9ff">
+      <rect x="40" y="226" width="64" height="16" rx="8"/><rect x="118" y="226" width="64" height="16" rx="8"/><rect x="196" y="226" width="64" height="16" rx="8"/><rect x="274" y="226" width="64" height="16" rx="8"/>
+    </g>
+    <rect x="350" y="236" width="90" height="14" rx="7" fill="#cfe0ff"/>
+  </g>
+  <!-- símbolo de porcentaje (la comisión) -->
+  <g transform="translate(820 170)">
+    <circle cx="0" cy="0" r="124" fill="#fff"/>
+    <circle cx="-42" cy="-44" r="26" fill="none" stroke="#1a56db" stroke-width="16"/>
+    <circle cx="42" cy="46" r="26" fill="none" stroke="#1a56db" stroke-width="16"/>
+    <path d="M52 -62L-52 64" stroke="#1a56db" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <!-- monedas -->
+  <g>
+    <ellipse cx="930" cy="470" rx="80" ry="22" fill="#9db9ff"/>
+    <rect x="850" y="440" width="160" height="30" fill="#9db9ff"/>
+    <ellipse cx="930" cy="440" rx="80" ry="22" fill="#cfe0ff"/>
+    <ellipse cx="930" cy="412" rx="80" ry="22" fill="#6f9bff"/>
+    <rect x="850" y="412" width="160" height="28" fill="#6f9bff"/>
+    <ellipse cx="930" cy="412" rx="80" ry="22" fill="#fff"/>
+    <ellipse cx="930" cy="412" rx="52" ry="12" fill="none" stroke="#6f9bff" stroke-width="6"/>
+  </g>
+</svg>

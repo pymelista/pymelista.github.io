@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".16"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f3a99"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="100" cy="90" r="250" fill="#1a56db" opacity=".55"/>
+  <circle cx="1100" cy="580" r="220" fill="#0a2c78"/>
+  <!-- calendario mensual -->
+  <g transform="translate(190 100)">
+    <rect x="16" y="20" width="520" height="430" rx="30" fill="#071f57" opacity=".4"/>
+    <rect width="520" height="430" rx="30" fill="#fff"/>
+    <path d="M0 30A30 30 0 0 1 30 0h460a30 30 0 0 1 30 30v66H0z" fill="#1a56db"/>
+    <rect x="40" y="34" width="150" height="20" rx="10" fill="#fff"/>
+    <rect x="40" y="64" width="96" height="12" rx="6" fill="#fff" opacity=".6"/>
+    <rect x="130" y="-14" width="14" height="46" rx="7" fill="#cfe0ff"/><rect x="376" y="-14" width="14" height="46" rx="7" fill="#cfe0ff"/>
+    <!-- días -->
+    <g fill="#e9f0ff">
+      <circle cx="68" cy="140" r="22"/><circle cx="140" cy="140" r="22"/><circle cx="212" cy="140" r="22"/><circle cx="284" cy="140" r="22"/><circle cx="356" cy="140" r="22"/><circle cx="428" cy="140" r="22"/>
+      <circle cx="68" cy="206" r="22"/><circle cx="140" cy="206" r="22"/><circle cx="212" cy="206" r="22"/><circle cx="356" cy="206" r="22"/><circle cx="428" cy="206" r="22"/>
+      <circle cx="68" cy="272" r="22"/><circle cx="140" cy="272" r="22"/><circle cx="284" cy="272" r="22"/><circle cx="356" cy="272" r="22"/><circle cx="428" cy="272" r="22"/>
+      <circle cx="68" cy="338" r="22"/><circle cx="212" cy="338" r="22"/><circle cx="284" cy="338" r="22"/><circle cx="356" cy="338" r="22"/>
+    </g>
+    <circle cx="284" cy="206" r="26" fill="#1a56db"/>
+    <path d="M272 206l9 9 16-19" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="212" cy="272" r="22" fill="#9db9ff"/>
+    <circle cx="428" cy="338" r="22" fill="#cfe0ff"/>
+    <rect x="40" y="388" width="440" height="22" rx="11" fill="#cfe0ff"/>
+  </g>
+  <!-- horas disponibles -->
+  <g transform="translate(780 140)">
+    <rect x="12" y="16" width="260" height="76" rx="20" fill="#071f57" opacity=".35"/>
+    <rect width="260" height="76" rx="20" fill="#fff"/>
+    <rect x="28" y="28" width="90" height="20" rx="10" fill="#cfe0ff"/><rect x="28" y="54" width="64" height="12" rx="6" fill="#e9f0ff"/>
+    <rect x="170" y="22" width="68" height="32" rx="16" fill="#1a56db"/>
+    <rect x="12" y="116" width="260" height="76" rx="20" fill="#071f57" opacity=".35"/>
+    <g transform="translate(0 100)">
+      <rect width="260" height="76" rx="20" fill="#fff"/>
+      <rect x="28" y="28" width="110" height="20" rx="10" fill="#cfe0ff"/><rect x="28" y="54" width="76" height="12" rx="6" fill="#e9f0ff"/>
+      <rect x="170" y="22" width="68" height="32" rx="16" fill="#9db9ff"/>
+    </g>
+    <g transform="translate(0 200)">
+      <rect x="12" y="16" width="260" height="76" rx="20" fill="#071f57" opacity=".35"/>
+      <rect width="260" height="76" rx="20" fill="#fff"/>
+      <rect x="28" y="28" width="80" height="20" rx="10" fill="#cfe0ff"/><rect x="28" y="54" width="60" height="12" rx="6" fill="#e9f0ff"/>
+      <rect x="170" y="22" width="68" height="32" rx="16" fill="#6f9bff"/>
+    </g>
+  </g>
+  <!-- reloj -->
+  <g transform="translate(900 470)">
+    <circle r="72" fill="#071f57" opacity=".35" cx="8" cy="10"/>
+    <circle r="72" fill="#fff"/>
+    <circle r="56" fill="none" stroke="#cfe0ff" stroke-width="10"/>
+    <path d="M0 -34V0l26 16" fill="none" stroke="#1a56db" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle r="7" fill="#1a56db"/>
+  </g>
+</svg>

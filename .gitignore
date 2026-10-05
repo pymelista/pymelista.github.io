@@ -1,0 +1,20 @@
+# Dependencias (el proyecto no usa ninguna, por si algún día se añade alguna)
+node_modules/
+
+# Entorno y secretos
+.env
+.env.*
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Registros y temporales
+*.log
+*.tmp
+
+# Configuración local de Claude Code
+.claude/

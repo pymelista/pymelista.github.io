@@ -20,7 +20,9 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
 | Artículos | **8 publicados** (2 por categoría) |
 | Páginas | Sobre, Contacto, Privacidad, Aviso legal y Cookies, **con datos del titular sin rellenar** |
 | Publicación | **En línea** en https://pymelista.github.io desde el 2026-10-06 (16:45 UTC), con Pages en `main` → `/docs` (ver «Publicación» para la incidencia previa) |
-| AdSense / Search Console | Sin configurar (`adsenseId` y `searchConsoleTag` vacíos) |
+| Search Console | Etiqueta de verificación puesta en `config.json` y publicada en todas las páginas (2026-10-06). **Falta pulsar «Verificar» en Search Console y enviar el sitemap.** |
+| AdSense | Sin configurar (`adsenseId` vacío: no hay script ni `ads.txt`) |
+| Datos legales | Titular, NIF, dirección y email **sin rellenar** (el propietario no los tenía a 2026-10-06) |
 
 ## Hecho en la Parte 1 (resumen)
 
@@ -117,7 +119,7 @@ Ya están hechos por el propietario; se dejan por si hay que repetirlos. `gh` (G
 - Sitio en producción: hecho y verificado (ver «Verificación»). Queda vigilar que no se retire por las condiciones de GitHub Pages (ver «Riesgos», punto 1).
 - Rellenar `[TITULAR]`, `[NIF]`, `[DIRECCIÓN]` y `[EMAIL]` y, si el titular está inscrito en un registro público, añadir sus datos registrales al Aviso legal.
 - Revisión de las páginas legales por un profesional.
-- Dar de alta Search Console y poner `searchConsoleTag` en `config.json`.
+- Search Console: la etiqueta ya está publicada. Entra en https://search.google.com/search-console, pulsa **Verificar** en la propiedad `https://pymelista.github.io/` y, una vez verificada, envía el sitemap `https://pymelista.github.io/sitemap.xml`.
 - Ampliar el catálogo con `PLAN.md` (orden sugerido del lote 2 al final de ese archivo) y llegar a una veintena de artículos revisados antes de solicitar AdSense.
 - Implantar la CMP antes de poner `adsenseId`; actualizar entonces las políticas de cookies y privacidad.
 - Paginar inicio y categorías cuando haya muchos artículos.

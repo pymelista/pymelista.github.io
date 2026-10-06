@@ -19,7 +19,7 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
 | Análisis de nicho y plan de 30 títulos | Hecho: `NICHO.md`, `PLAN.md` |
 | Artículos | **8 publicados** (2 por categoría) |
 | Páginas | Sobre, Contacto, Privacidad, Aviso legal y Cookies, **con datos del titular sin rellenar** |
-| Publicación | Push hecho; Pages configurado en `main` → `/docs`; **despliegue pendiente por una incidencia de GitHub Actions del 2026-10-05** (ver «Publicación») |
+| Publicación | **En línea** en https://pymelista.github.io desde el 2026-10-06 (16:45 UTC), con Pages en `main` → `/docs` (ver «Publicación» para la incidencia previa) |
 | AdSense / Search Console | Sin configurar (`adsenseId` y `searchConsoleTag` vacíos) |
 
 ## Hecho en la Parte 1 (resumen)
@@ -67,6 +67,8 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
 ## Verificación
 
 - **Lighthouse 13.5.0** (móvil y escritorio, contra `node serve.js` en local): **100 / 100 / 100 / 100** (rendimiento, accesibilidad, buenas prácticas, SEO) en inicio, categoría, artículo con tablas y página legal (móvil) y en artículo (escritorio). Medido sin compresión; no es una medición en producción.
+- **Lighthouse en producción** (2026-10-06, contra https://pymelista.github.io): inicio móvil **100 / 100 / 100 / 100**; artículo móvil, página de privacidad móvil y inicio en escritorio **99–100 en rendimiento y 100 en accesibilidad, buenas prácticas y SEO**. El 99 viene solo del Speed Index en simulación móvil (2,1–3,4 s); LCP 1,1–1,2 s, CLS ≤ 0,005, TBT ≤ 30 ms.
+- **Producción, comprobaciones HTTP (2026-10-06):** las 18 URL del sitemap devuelven 200 con `lang="es-ES"` y canonical correcto; `robots.txt`, `feed.xml`, `sitemap.xml`, `og-default.png`, la fuente, el JS y las portadas SVG se sirven con su tipo correcto; una URL inexistente devuelve 404 real con la página 404 propia.
 - **Calidad de los 8 artículos (script):** palabras entre 945 y 1.163 (rango pedido: 900–1.500), título ≤ 60, descripción ≤ 155, FAQ de 4, 2–3 enlaces internos, tabla, frase «datos a fecha de octubre de 2026», sin frases prohibidas («hemos probado», estrellas, testimonios…), sin frases repetidas entre artículos.
 - **Enlaces:** el build comprueba todos los enlaces y anclas internos (0 rotos). Los 26 enlaces externos responden 200. Sitemap (18 URLs) y feed (8 artículos) son XML válido y todas las URL del sitemap existen en `docs/`.
 - **Móvil:** las 19 páginas se cargaron a 375 px de ancho sin desbordamiento horizontal.
@@ -92,8 +94,10 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
   - Los dos primeros despliegues (18:51 y 18:52 UTC) se hicieron desde la raíz del repositorio con Jekyll, antes de cambiar el origen a `/docs`, y por eso la web mostró el README.
   - Se comprobó que `docs/index.html` y `docs/.nojekyll` están en el remoto, que `.gitignore` no excluye nada de `docs/` y que `node build.js` regenera `docs/` sin cambios.
   - Los despliegues posteriores (el lanzado al cambiar el ajuste y el del commit vacío `f48ae31`) **no llegaron a ejecutarse**: el trabajo `build` esperó 15 minutos sin ejecutor y se canceló, y lo mismo el siguiente. Coincide con una incidencia de GitHub Actions («delays when assigning GitHub-hosted runners», abierta desde las 19:11 UTC y aún sin resolver a las 19:50). No es un fallo del repositorio.
-  - Cada push cancela el despliegue en cola, así que no conviene empujar varias veces seguidas mientras dure la incidencia.
-  - Estado del sitio: pendiente de un despliegue correcto. Para reintentar sin crear commits: en https://github.com/pymelista/pymelista.github.io/actions abre el último «pages build and deployment» y pulsa **Re-run all jobs**.
+  - Cada push cancela el despliegue en cola, así que no conviene empujar varias veces seguidas mientras dure una incidencia.
+  - **Resolución (2026-10-06):** con GitHub Actions ya operativo, un commit vacío (`22e3b5d`) lanzó un despliegue que se ejecutó al instante y terminó en `success` en 30 segundos. A las 16:45 UTC la web pasó a servir `docs/index.html`.
+  - **Estado del sitio: EN LÍNEA.** Si un despliegue vuelve a atascarse sin motivo, se puede reintentar sin crear commits: en https://github.com/pymelista/pymelista.github.io/actions abre el último «pages build and deployment» y pulsa **Re-run all jobs**.
+  - Lección: tras cambiar el origen de Pages, comprueba que el despliegue siguiente se ejecuta; los dos primeros despliegues (desde la raíz, con Jekyll) dejaron el README en línea hasta que hubo uno correcto desde `/docs`.
 - Autoría de los commits: `PymeLista <pymelista@users.noreply.github.com>` (configuración local del repositorio, no global).
 
 ## Pasos para configurar GitHub Pages (clic a clic)
@@ -110,7 +114,7 @@ Ya están hechos por el propietario; se dejan por si hay que repetirlos. `gh` (G
 
 ## Pendiente
 
-- Activar Pages (arriba) y comprobar el sitio en producción.
+- Sitio en producción: hecho y verificado (ver «Verificación»). Queda vigilar que no se retire por las condiciones de GitHub Pages (ver «Riesgos», punto 1).
 - Rellenar `[TITULAR]`, `[NIF]`, `[DIRECCIÓN]` y `[EMAIL]` y, si el titular está inscrito en un registro público, añadir sus datos registrales al Aviso legal.
 - Revisión de las páginas legales por un profesional.
 - Dar de alta Search Console y poner `searchConsoleTag` en `config.json`.

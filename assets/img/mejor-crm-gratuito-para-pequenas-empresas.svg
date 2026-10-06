@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".16"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f3a99"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="1090" cy="80" r="250" fill="#1a56db" opacity=".55"/>
+  <circle cx="100" cy="590" r="220" fill="#0a2c78"/>
+  <!-- ficha de contacto -->
+  <g transform="translate(110 130)">
+    <rect x="14" y="18" width="520" height="370" rx="30" fill="#071f57" opacity=".4"/>
+    <rect width="520" height="370" rx="30" fill="#fff"/>
+    <circle cx="110" cy="110" r="52" fill="#9db9ff"/>
+    <circle cx="110" cy="96" r="20" fill="#fff"/>
+    <path d="M70 142a40 34 0 0 1 80 0z" fill="#fff"/>
+    <rect x="190" y="80" width="260" height="22" rx="11" fill="#0f3a99"/>
+    <rect x="190" y="120" width="190" height="16" rx="8" fill="#9db9ff"/>
+    <rect x="50" y="210" width="420" height="16" rx="8" fill="#cfe0ff"/>
+    <rect x="50" y="248" width="360" height="16" rx="8" fill="#cfe0ff"/>
+    <rect x="50" y="286" width="300" height="16" rx="8" fill="#cfe0ff"/>
+    <rect x="50" y="326" width="120" height="34" rx="17" fill="#1a56db"/>
+  </g>
+  <!-- embudo de ventas -->
+  <g transform="translate(700 150)">
+    <path d="M0 0H380L310 120H70z" fill="#fff"/>
+    <path d="M70 140H310L260 250H120z" fill="#9db9ff"/>
+    <path d="M120 270H260L225 360H155z" fill="#6f9bff"/>
+    <circle cx="190" cy="415" r="34" fill="#fff"/>
+    <path d="M174 415l12 12 22-26" fill="none" stroke="#1a56db" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

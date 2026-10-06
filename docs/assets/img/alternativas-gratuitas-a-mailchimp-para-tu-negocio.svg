@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".16"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f3a99"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="1090" cy="80" r="250" fill="#1a56db" opacity=".55"/>
+  <circle cx="100" cy="590" r="220" fill="#0a2c78"/>
+  <!-- sobre -->
+  <g transform="translate(150 170)">
+    <rect x="14" y="16" width="560" height="340" rx="28" fill="#071f57" opacity=".4"/>
+    <rect width="560" height="340" rx="28" fill="#fff"/>
+    <path d="M22 310L210 150M538 310L350 150" fill="none" stroke="#cfe0ff" stroke-width="14" stroke-linecap="round"/>
+    <path d="M22 34L280 230 538 34" fill="none" stroke="#1a56db" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- flechas de cambio -->
+  <g transform="translate(760 110)" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 80H230M190 40l40 40-40 40"/>
+    <path d="M230 200H30M70 160l-40 40 40 40"/>
+  </g>
+  <!-- etiqueta 0 € -->
+  <g transform="translate(790 330) rotate(-8 110 70)">
+    <rect x="10" y="12" width="220" height="140" rx="26" fill="#071f57" opacity=".4"/>
+    <rect width="220" height="140" rx="26" fill="#fff" stroke="#1a56db" stroke-width="8"/>
+    <text x="110" y="98" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="84" fill="#0f3a99">0 €</text>
+  </g>
+</svg>

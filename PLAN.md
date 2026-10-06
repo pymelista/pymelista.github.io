@@ -4,7 +4,7 @@ Cada título parte de la pregunta que se hace un dueño de negocio al elegir una
 
 **Prioridad:** comparativas («A o B») y «mejor herramienta para X» van primero porque son las búsquedas con intención de compra. Las guías generales van después.
 
-**Leyenda de estado:** ✅ publicado en el lote 1 · ⏳ pendiente.
+**Leyenda de estado:** ✅ publicado (lote 1, o «lote 2» si es posterior) · ⏳ pendiente.
 
 ## Reglas para todos los artículos
 
@@ -35,7 +35,7 @@ Cada título parte de la pregunta que se hace un dueño de negocio al elegir una
 | 1 | Shopify, WooCommerce o PrestaShop: cuál elegir | Comparativa | ¿Con qué plataforma abro mi tienda? | ✅ |
 | 2 | Stripe o PayPal: comisiones para cobrar en tu tienda | Comparativa | ¿Con cuál cobro más barato? | ✅ |
 | 3 | Shopify o Wix: cuál elegir para una tienda pequeña | Comparativa | ¿Me compensa más una tienda dentro de mi creador de webs? | ⏳ |
-| 4 | Mejor plataforma para abrir una tienda online pequeña | Mejor para X | ¿Cuál es la más sencilla para empezar con pocos productos? | ⏳ |
+| 4 | Mejor plataforma para abrir una tienda online pequeña | Mejor para X | ¿Cuál es la más sencilla para empezar con pocos productos? | ✅ (lote 2) |
 | 5 | Mejores apps de envíos para tu tienda online | Mejor para X | ¿Cómo gestiono etiquetas y transportistas? | ⏳ |
 | 6 | Bizum en tu tienda online: qué plataformas lo admiten | Guía | ¿Puedo ofrecer Bizum a mis clientes? | ⏳ |
 | 7 | Vender online sin tienda propia: marketplaces o web | Comparativa | ¿Vendo en un marketplace o monto mi tienda? | ⏳ |
@@ -47,7 +47,7 @@ Cada título parte de la pregunta que se hace un dueño de negocio al elegir una
 |---|---|---|---|---|
 | 1 | Mailchimp, Brevo o MailerLite: cuál te conviene | Comparativa | ¿Cuál es más barata para mi lista de clientes? | ✅ |
 | 2 | Buffer o Metricool: cuál elegir para tus redes | Comparativa | ¿Cómo programo mis publicaciones sin perder tiempo? | ✅ |
-| 3 | Alternativas gratuitas a Mailchimp para tu negocio | Alternativas | ¿Hay algo gratis que me sirva? | ⏳ |
+| 3 | Alternativas gratuitas a Mailchimp para tu negocio | Alternativas | ¿Hay algo gratis que me sirva? | ✅ (lote 2) |
 | 4 | Cómo crear una newsletter desde cero con herramientas gratis | Guía | ¿Por dónde empiezo con el email? | ⏳ |
 | 5 | Canva o alternativas: diseño para redes sociales | Mejor para X | ¿Con qué hago imágenes sin ser diseñador? | ⏳ |
 | 6 | Google Business Profile: cómo aparecer en Google Maps | Guía | ¿Cómo hago que mi negocio salga en Google Maps? | ⏳ |
@@ -59,7 +59,7 @@ Cada título parte de la pregunta que se hace un dueño de negocio al elegir una
 |---|---|---|---|---|
 | 1 | Trello, Asana o Notion: cuál usar en tu negocio | Comparativa | ¿Con qué organizo las tareas de mi equipo? | ✅ |
 | 2 | Calendly, Cal.com o Fresha: reservas online para tu negocio | Comparativa | ¿Cómo dejo que mis clientes reserven cita solos? | ✅ |
-| 3 | Mejor CRM gratuito para pequeñas empresas | Mejor para X | ¿Cómo llevo el seguimiento de mis clientes? | ⏳ |
+| 3 | Mejor CRM gratuito para pequeñas empresas | Mejor para X | ¿Cómo llevo el seguimiento de mis clientes? | ✅ (lote 2) |
 | 4 | Google Workspace o Microsoft 365: cuál elegir | Comparativa | ¿Qué suite uso para correo y documentos? | ⏳ |
 | 5 | Zoom, Google Meet o Teams: videollamadas con clientes | Comparativa | ¿Qué herramienta uso para reunirme con clientes? | ⏳ |
 | 6 | Mejor app para organizar tickets y gastos del negocio | Mejor para X | ¿Cómo dejo de perder tickets? (solo la herramienta, sin consejo fiscal) | ⏳ |
@@ -67,7 +67,7 @@ Cada título parte de la pregunta que se hace un dueño de negocio al elegir una
 
 ## Orden sugerido para el lote 2
 
-Primero lo que mejor pagaría y más rápido se puede verificar: **G3** (CRM gratuito), **M3** (alternativas a Mailchimp), **T4** (plataforma para tienda pequeña), **C5** (hostings), **G4** (suites de oficina), **C3**, **T3** y **M4**. Después, las guías, que sirven para enlazar internamente.
+Primero lo que mejor pagaría y más rápido se puede verificar: ~~**G3** (CRM gratuito), **M3** (alternativas a Mailchimp), **T4** (plataforma para tienda pequeña)~~ (hechos el 2026-10-06), después **C5** (hostings), **G4** (suites de oficina), **C3**, **T3** y **M4**. Después, las guías, que sirven para enlazar internamente.
 
 ## Antes de pedir AdSense
 

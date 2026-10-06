@@ -76,6 +76,35 @@ Dato que no se pudo confirmar → está escrito en el artículo como «no consta
 | Fresha (euros): Independiente 19,95 €/mes (7 días de prueba, 150 SMS y 50 emails gratis); Equipo 12,95 € por miembro disponible para reservas; Empresa a medida (más de 20 miembros). Tipos de negocio del menú. Comisiones de cobro **no comprobadas**. | [fresha.com/es/pricing](https://www.fresha.com/es/pricing) |
 | Costes de 3 personas (30 $, 36 $, 38,85 €): **cálculos propios**. | — |
 
+### Mejor CRM gratuito (`mejor-crm-gratuito-para-pequenas-empresas`) — comprobado 2026-10-06
+
+| Dato | Fuente |
+|---|---|
+| HubSpot (dólares; el parámetro de moneda no cambió la página): Free 0 $/mes, hasta 2 usuarios, sin tarjeta, 1.000 contactos, sin límite de tiempo, tope de 1 millón de registros de otros objetos; conexión con Gmail, G Suite y versiones de Outlook; soporte: Comunidad, Academy, Knowledge Base; descuentos a startups y ONG elegibles. Starter: «desde 7 $/mes/puesto», con 20 $ como precio tachado, oferta por tiempo limitado para clientes nuevos. | [hubspot.com/pricing/crm](https://www.hubspot.com/pricing/crm) |
+| Zoho CRM (euros; leído con el selector Anual/Mensual): Standard 14 € (anual) / 20 € (mensual) por usuario y mes; Professional 23 € / 35 €. Edición gratis: «gratis para siempre para 3 usuarios» (clientes potenciales, oportunidades, flujos de trabajo, informes, app móvil). Impuestos locales aparte. Sin límite de contactos publicado. | [zoho.com/es-xl/crm/zohocrm-pricing.html](https://www.zoho.com/es-xl/crm/zohocrm-pricing.html) |
+| Bitrix24 (dólares): plan Free sin límite de tiempo y con usuarios ilimitados (según su FAQ); telefonía y apps de Market solo de pago; prueba de 15 días sin tarjeta. Basic Vibe+ 59 $/mes anual (89 $ precio habitual), 5 usuarios, 24 GB; Standard Vibe+ 120 $ (199 $), 50 usuarios, 100 GB. Oferta de lanzamiento del 1-sep al 10-dic-2026 para suscripciones de 12 meses. Almacenamiento y otros límites del plan Free **no comprobados**. | [bitrix24.es/prices](https://www.bitrix24.es/prices/) |
+| Coste de 5 usuarios en Zoho Standard (70 €/mes, 840 €/año, 100 €/mes mensual): **cálculo propio**. | — |
+
+### Alternativas gratuitas a Mailchimp (`alternativas-gratuitas-a-mailchimp-para-tu-negocio`) — comprobado 2026-10-06 (Brevo y MailerLite, 2026-10-04)
+
+| Dato | Fuente |
+|---|---|
+| Mailchimp (euros): Free con máximo de 500 envíos al mes o 250 al día, 1 usuario, 1 público, sin automatizaciones, sin programación, sin quitar la marca, plantillas limitadas, soporte por correo los primeros 30 días, formularios emergentes incluidos; Standard desde 17,91 €/mes tras 14 días de prueba; recargos al superar límites. «Menos de 250 contactos» del plan Free: lectura del 2026-10-04. | [mailchimp.com/es/pricing](https://mailchimp.com/es/pricing/marketing/?currency=EUR) |
+| Sender (euros): Free 0 €, 1 usuario, hasta 2.500 suscriptores, 15.000 emails/mes, con marca de Sender, newsletters, automatización, landing pages, formularios y popups, transaccionales, prueba de 14 días del plan Pro, servicio de migración gratuito. Standard 5,53 €/mes con 30 % de descuento a nuevos usuarios (66,42 € el primer año; 94,88 € sin descuento), 500 suscriptores, 6.000 emails/mes, 3 usuarios. | [sender.net/pricing](https://www.sender.net/pricing/) |
+| Kit (dólares, inglés): Free hasta 10.000 suscriptores, landing pages y formularios ilimitados, emails (broadcasts) ilimitados, etiquetas y segmentación, venta de productos digitales y suscripciones, migraciones gratuitas. Creator 33 $/mes (390 $ facturados al año) para 1.000 suscriptores: automatizaciones visuales y secuencias ilimitadas, quitar la marca de Kit, SMS. | [kit.com/pricing](https://kit.com/pricing) |
+| Brevo y MailerLite: ver la entrada de «Mailchimp, Brevo o MailerLite». | — |
+| Equivalencias (9.000 envíos/mes como máximo en Brevo, 10 y 6 correos por suscriptor, 2 en Mailchimp): **cálculos propios**. | — |
+
+### Mejor plataforma para una tienda online pequeña (`mejor-plataforma-para-abrir-una-tienda-online-pequena`) — comprobado 2026-10-06
+
+| Dato | Fuente |
+|---|---|
+| Shopify (España): relectura idéntica a la del 2026-10-04 (Basic 24 €/32 €, tarjeta desde 2,1 % + 0,30 €, 3 días gratis y 1 €/mes durante 3 meses); apartado «Agentic» a 0 €/mes, pagando solo al vender; «Vende productos ilimitados» en la tabla comparativa. | [shopify.com/es-es/precios](https://www.shopify.com/es-es/precios) |
+| Wix: **precios cambiados desde el 2026-10-04**: la página muestra «50 % menos» con Core 12,50 € (25 € de lista), Business 17 € (34 €), Business Elite 74,50 € (149 €); Light 14 €. Sin fecha de fin de la rebaja. Aceptar pagos y eCommerce desde Core («esencial»; Business «estándar»); 50.000 productos; 50 GB en Core; garantía de 14 días; precios de pago anual completo, sin impuestos. | [es.wix.com/pricing](https://es.wix.com/pricing) |
+| Squarespace: relectura sin cambios (12/18/32/69 €); comisión de tienda 2 % en Basic y 0 % en el resto; tarjetas desde 2,0 % + 0,25 € (Basic, Core); productos digitales: 7 % / 5 % / 1 % / 0 %; prueba de 14 días. | [es.squarespace.com/precios](https://es.squarespace.com/precios) |
+| WooCommerce y WordPress.com Commerce (45 €/mes en planes de 12 meses): ver las entradas de «Shopify, WooCommerce o PrestaShop» y «Wix, Squarespace o WordPress.com» (leídas el 2026-10-04). | — |
+| Costes anuales (144, 216, 288, 300, 150, 540 €) y punto de equilibrio de 300 €/mes de ventas (6 € ÷ 2 %): **cálculos propios**. Tiendanube se descartó: su web es para Latinoamérica y `/es/precios` devuelve 404. | — |
+
 ## Páginas legales y de apoyo
 
 | Dato | Fuente |

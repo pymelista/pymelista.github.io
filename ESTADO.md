@@ -1,6 +1,6 @@
 # ESTADO — PymeLista
 
-Web de contenido para monetizar con Google AdSense. Sitio estático multipágina, Node puro, sin dependencias, en GitHub Pages (`/docs`). Estado a **2026-10-05**.
+Web de contenido para monetizar con Google AdSense. Sitio estático multipágina, Node puro, sin dependencias, en GitHub Pages (`/docs`). Estado a **2026-10-06**.
 
 Carpeta del proyecto: `trabajos/webs/2026-10-04_pymelista/` (dentro del workspace `Trabajo IA/IA_nuevo`).
 
@@ -17,12 +17,18 @@ node serve.js    # previsualiza docs/ en http://localhost:4173
 |---|---|
 | Estructura, plantillas, CSS, JS, `build.js` | Hecho (Parte 1) |
 | Análisis de nicho y plan de 30 títulos | Hecho: `NICHO.md`, `PLAN.md` |
-| Artículos | **8 publicados** (2 por categoría) |
+| Artículos | **11 publicados** (8 del lote 1 + 3 del lote 2: CRM gratuito, alternativas a Mailchimp, plataforma para tienda pequeña) |
 | Páginas | Sobre, Contacto, Privacidad, Aviso legal y Cookies, **con datos del titular sin rellenar** |
 | Publicación | **En línea** en https://pymelista.github.io desde el 2026-10-06 (16:45 UTC), con Pages en `main` → `/docs` (ver «Publicación» para la incidencia previa) |
 | Search Console | Etiqueta de verificación puesta en `config.json` y publicada en todas las páginas (2026-10-06). **Falta pulsar «Verificar» en Search Console y enviar el sitemap.** |
 | AdSense | Sin configurar (`adsenseId` vacío: no hay script ni `ads.txt`) |
 | Datos legales | Titular, NIF, dirección y email **sin rellenar** (el propietario no los tenía a 2026-10-06) |
+
+## Lote 2 (2026-10-06, modo automático)
+
+- 3 artículos nuevos con las mismas reglas (precios leídos en el navegador, «no consta» donde no se pudo comprobar, FAQ de 4, 3 enlaces internos, portada SVG propia): **Mejor CRM gratuito para pequeñas empresas** (HubSpot, Zoho CRM, Bitrix24), **Alternativas gratuitas a Mailchimp para tu negocio** (Mailchimp, Brevo, MailerLite, Sender, Kit) y **Mejor plataforma para abrir una tienda online pequeña** (Shopify, Wix, Squarespace, WooCommerce). Fuentes en `FUENTES.md`.
+- **Aviso:** al releer Wix el 2026-10-06, su página muestra una rebaja del 50 % (Core 12,50 €, Business 17 €). El artículo del lote 1 «Wix, Squarespace o WordPress.com» sigue con los precios de lista del 2026-10-04 (25 € / 34 €): **revisarlo** en la próxima pasada.
+- Tiendanube se descartó (web para Latinoamérica). `PLAN.md` conserva 19 títulos pendientes; no hace falta ampliarlo todavía.
 
 ## Hecho en la Parte 1 (resumen)
 
